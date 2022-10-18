@@ -105,9 +105,7 @@ make
 - [Optimized contrast enhancement for real-time image and video dehazing](http://www.sciencedirect.com/science/article/pii/S1047320313000242)
 
 
-## 两种方法的对比头部
-## 两种方法的对比加入
-## 两种方法的对比
+
 
 
 
