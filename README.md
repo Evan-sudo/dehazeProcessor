@@ -103,3 +103,17 @@ make
 - [Single Image Haze Removal Using White Balancing and Saliency Map](http://www.sciencedirect.com/science/article/pii/S1877050915000435)
 - [The Next Best Underwater View](http://ieeexplore.ieee.org/document/7780778/)
 - [Optimized contrast enhancement for real-time image and video dehazing](http://www.sciencedirect.com/science/article/pii/S1047320313000242)
+
+
+## 两种方法的对比头部
+## 两种方法的对比加入
+## 两种方法的对比
+
+
+
+项目存在的bug：
+1. 最好删除build目录重新cmake,不然会出现路径不匹配的问题
+2. 需要将opencv的路径加入cmakelist.txt:
+set(OpenCV_DIR 你的路径)
+3. 需要在nonLocalDehazeProcessor.cpp文件
+#include "fstream"
