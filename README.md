@@ -115,3 +115,4 @@ make
 set(OpenCV_DIR 你的路径)
 3. 需要在nonLocalDehazeProcessor.cpp文件
 #include "fstream"
+4.切换的处理方法在demo.cpp里面。默认是nonlocal方法（19行）
